@@ -22,3 +22,39 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+# maven ignore
+target/
+*.versionsBackup
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.cache
+*.diff
+*.patch
+*.tmp
+/temp
+/tmp
+app.jar
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+gitlabci/.generated
+
+/bin
+src/main/resources/application-default.yml
+/src/main/resources/rebel.xml
+
+# z5n ignore
+.z5n
